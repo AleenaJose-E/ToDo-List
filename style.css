@@ -4,9 +4,9 @@
 	box-sizing: border-box;
   }
   body {
-	background-image: linear-gradient(120deg, #0d041b 0%, #2dce98 100%);
-	color: rgb(118, 223, 236);
-	font-family: "Poppins", sans-serif;
+	background-image: linear-gradient(180deg, #00a7f5 0%, #7ee1ff 100%);
+	color: #eafbff;
+	font-family: 'Dancing Script', cursive;
 	min-height: 100vh;
   }
   header {
@@ -25,16 +25,19 @@
 	padding: 0.5rem;
 	font-size: 2rem;
 	border: none;
-	background: white;
+	font-family: 'Dancing Script', cursive;
+	color: #043164;
+	background: rgb(191, 237, 243);
+	
   }
   form button {
-	color: #da5bd3;
-	background: #f7fffe;
+	color: #eafbff;
+	background: #2088ff;
 	cursor: pointer;
 	transition: all 0.3s ease;
   }
   form button:hover {
-	background: #37f156;
+	background: #37dbf1;
 	color: white;
   }
   .todo-container {
@@ -50,9 +53,9 @@
   
   .todo {
 	margin: 0.5rem;
-	background: white;
+	background: rgb(191, 237, 243);
 	font-size: 1.5rem;
-	color: black;
+	color: #043164;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -67,7 +70,7 @@
   
   .trash-btn,
   .complete-btn {
-	background: #9ec73e;
+	background: #056e69;
 	color: white;
 	border: none;
 	padding: 1rem;
@@ -115,10 +118,11 @@
 	overflow: hidden;
   }
   select {
-	color: #c7df40;
-	font-family: "Poppins", sans-serif;
+	color: #043164;
+	font-family: 'Dancing Script', cursive;
 	cursor: pointer;
 	width: 12rem;
+	background: rgb(191, 237, 243);
   }
   /* Arrow */
   .select::after {
@@ -127,7 +131,7 @@
 	top: 0;
 	right: 0;
 	padding: 1rem;
-	background: #4b3575;
+	background: #2088ff;
 	cursor: pointer;
 	pointer-events: none;
   }
@@ -137,3 +141,7 @@
 	transform: scale(1.5);
   }
   */
+
+/*
+font-family: 'Dancing Script', cursive;
+*/
